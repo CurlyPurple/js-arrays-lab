@@ -188,16 +188,13 @@ let fizzbuzz = []
 /*
 for (let i = 0; i < nums.length; i++) {
     if (Number.isInteger(nums[i]/3)) {
-        fizz = nums.push(nums[i]);
-        nums = nums.push(nums[i]);
+        fizz = nums.slice(nums[i]);
     }
     else if (Number.isInteger(nums[i]/5)) {
-        buzz = nums.push(nums[i]);
-        nums.push(nums[i]);
+        buzz = nums.slice(nums[i]);
     }
     else if ((Number.isInteger(nums[i]/3)) && (Number.isInteger(nums[i]/5))) {
-        fizzbuzz = nums.push(nums[i]);
-        nums.push(nums[i])
+        fizzbuzz = nums.slice(nums[i]);
     }
     else {}
 }
