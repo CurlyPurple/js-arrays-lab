@@ -183,15 +183,23 @@ Complete Exercise 12 in the space below:
 */
 
 let fizz = []
-const buzz = []
-const fizzbuzz = []
+let buzz = []
+let fizzbuzz = []
 
 for (let i = 0; i < nums.length; i++) {
     if (Number.isInteger(nums[i]/3)) {
-        fizz = nums.slice(nums[i])
+        fizz = nums.push(nums[i]);
+        nums = nums.push(nums[i]);
     }
-    else {
+    else if (Number.isInteger(nums[i]/5)) {
+        buzz = nums.push(nums[i]);
+        nums.push(nums[i]);
     }
+    else if ((Number.isInteger(nums[i]/3)) && (Number.isInteger(nums[i]/5))) {
+        fizzbuzz = nums.push(nums[i]);
+        nums.push(nums[i])
+    }
+    else {}
 }
 
 console.log('Exercise 12 Results:');
