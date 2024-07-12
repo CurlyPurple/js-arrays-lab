@@ -185,7 +185,7 @@ Complete Exercise 12 in the space below:
 let fizz = []
 let buzz = []
 let fizzbuzz = []
-/*
+
 for (let i = 0; i < nums.length; i++) {
     if (Number.isInteger(nums[i]/3)) {
         fizz = nums.slice(nums[i]);
@@ -198,7 +198,7 @@ for (let i = 0; i < nums.length; i++) {
     }
     else {}
 }
-*/
+
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
