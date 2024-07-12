@@ -185,7 +185,7 @@ Complete Exercise 12 in the space below:
 let fizz = []
 let buzz = []
 let fizzbuzz = []
-
+/*
 for (let i = 0; i < nums.length; i++) {
     if (Number.isInteger(nums[i]/3)) {
         fizz = nums.push(nums[i]);
@@ -201,7 +201,7 @@ for (let i = 0; i < nums.length; i++) {
     }
     else {}
 }
-
+*/
 console.log('Exercise 12 Results:');
 console.log('  fizz:', fizz);
 console.log('  buzz:', buzz);
@@ -264,7 +264,7 @@ let total = 0
 /*
 numArrays.forEach(function(arrayRow) {
     arrayRow.forEach(function(arrayColumn) {
-        console.log(arrayColumn)
+        total += arrayColumn
     }) 
 })
     Got this from a youtube video but could not figure out how this makes sense.
