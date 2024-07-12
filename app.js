@@ -258,14 +258,10 @@ Complete Exercise 15 in the space below:
 */
 
 let total = 0
-/*
-numArrays.forEach(function(arrayRow) {
-    arrayRow.forEach(function(arrayColumn) {
+numArrays.forEach((arrayRow) => {
+    arrayRow.forEach((arrayColumn) {
         total += arrayColumn
     }) 
 })
-    Got this from a youtube video but could not figure out how this makes sense.
-    I know it just calls the elements of each aray but I need to study forEach
-     much more
-*/
+
 console.log('Exercise 15 result:\n', total);
